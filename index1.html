@@ -13,7 +13,10 @@
         
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%), url('https://i.pinimg.com/736x/4a/3a/f4/4a3af479d45a389e8798d4ec69ae301b.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
             min-height: 100vh;
             padding: 20px;
             color: #fff;
@@ -135,6 +138,19 @@
             font-size: 0.9em;
         }
         
+        footer .author {
+            color: #ffd700;
+            font-size: 1em;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        
+        footer .school {
+            color: #aaa;
+            font-size: 0.85em;
+            margin-top: 5px;
+        }
+        
         @media (max-width: 600px) {
             h1 {
                 font-size: 2em;
@@ -229,6 +245,8 @@
         
         <footer>
             <p>🎪 "Cirks" - izklaidējoša spēle visai ģimenei! 🎪</p>
+            <p class="author">Spēles autore: Melānija Kivleniece, 11.B klase</p>
+            <p class="school">Jāņa Eglīša Preiļu Valsts ģimnāzija</p>
         </footer>
     </div>
 </body>
